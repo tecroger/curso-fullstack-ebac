@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color:#959693;
+    color: aliceblue;
+    padding: 16px;
+    
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+}
+
+header .container a{
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 16px;
+    color: #fff;
+
+}
+
+header .container a:hover{
+    text-decoration: underline;
+}
+h2, h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+header li {
+    display: inline;
+   
+}
+
+.articles article a {
+    border-radius: 10%;
+    background-color: rgb(72, 0, 255);
+    color: #fff;
+    padding: 6px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+}
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+}
+.articles article img {
+    width: 100%;
+
+    
+}
+.articles article{
+    width: 30%;
+    margin-top: 16px;
+}
+
+section,h2 .articles article {
+    padding: 16px 0;
+    
+}
+
+section, h3{
+    font-size: 22px;
+}
+
+section, h2{
+    font-size: 25px;
+
+}
+
+section, p{
+    font-size: 16px;
+}
+
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tecnologia h2, h3 {
+    color:#fff
+}
+
+#entretenimento  h2, h3 {
+    color:#000
+}
+
+
+#sports{
+    background-color: rgb(221, 240, 240);
+}
+#sports .articles article a {
+    background-color: #959693;
+}
+
+#economy{
+    background-color: rgb(233, 238, 206);
+}
+#economy .articles article a {
+    background-color: #959693;
+}
+
+#tecnologia{
+    background-color: #054f77;
+}
+#tecnologia .articles article a {
+    background-color: #959693;
+}
+
+#entretenimento{
+    background-color: #92E37C;
+}
+#entretenimento .articles article a {
+    background-color: #959693;
+}
+
+#tecnologia .articles article p{
+  color: #959693;
+}
+
+
+
+
